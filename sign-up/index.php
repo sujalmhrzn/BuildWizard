@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="main">
-        <form action="sign-up.php" method="POST">
+        <form action="index.php" method="POST">
 
-            <img src="./images/logo-full.png" alt="Build wizard ko logo">
+            <img src="../images/logo-full.png" alt="Build wizard ko logo">
             <?php
-                require_once("db.php");
+                require_once("../db.php");
                 if(isset($_POST["email"])&&isset($_POST["password"]))
                 {
                         if($_POST["password"]==$_POST["c_password"])
@@ -24,7 +24,7 @@
                                 $query="INSERT INTO users (u_name, u_password, u_email)
                             VALUES('$u_name', '$u_password', '$u_email');";
                             mysqli_query($conn,$query);
-                            header("Location: sign-in.php"); 
+                            header("Location: ../sign-in"); 
                             }else{
                                 echo "<p style='color:red;'>MINIMUN REQUIRED 8 CHARACTERS</p>";
                             }
@@ -44,7 +44,7 @@
             <button type="submit">
                 sign up
             </button>
-            <p>Have an account? <a href="sign-in.php" id="sign-in.php">Login</a></p>
+            <p>Have an account? <a href="../sign-in" id="sign-in.php">Login</a></p>
         </form>
     </div>
 </body>

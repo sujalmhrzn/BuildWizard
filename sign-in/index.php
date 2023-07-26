@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="main">
-        <form action="" method="POST">
-            <img src="./images/logo-full.png" alt="">
+        <form action="index.php" method="POST">
+            <img src="../images/logo-full.png" alt="">
             <?php
-                require_once("db.php");
+                require_once("../db.php");
                 if(isset($_POST["email"])&&isset($_POST["password"]))
                 {
                     $email=$_POST["email"];
@@ -24,7 +24,7 @@
                     {
                         if($u_password==$user["u_password"])
                         {
-                            header("Location: portal.php");
+                            header("Location: ../portal.php");
                         }
                         else{
                             echo "<p style='color:red;'>PASSWORD INCORRECT</p>";
@@ -39,7 +39,7 @@
             <input type="email" placeholder="Email" name="email" id="email" required>
             <a class="forgot" href="">Forgot Password</a>
             <input type="password" placeholder="Password" name="password" id="password" required>
-            <p>Dont Have a Account? <a href="sign-up.php">Sign Up</a></p>
+            <p>Dont Have a Account? <a href="../sign-up/">Sign Up</a></p>
             <button type="submit">
                 Sign In
             </button>
