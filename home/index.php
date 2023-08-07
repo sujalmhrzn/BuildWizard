@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="./images/logo-full.png" alt="logo">
+        <img src="../images/logo-full.png" alt="logo">
         <form action="">
             <div class="search">
                 <input type="text" placeholder="Search Components">
@@ -23,17 +23,17 @@
                 </a>
             </div>
         </form>
-        <a href="sign-in.php" class="sign-in">Sign In</a>
+        <a href="../sign-in" class="sign-in">Sign In</a>
     </header>
     <nav>
         <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">BUILD</a></li>
-            <li><a href="components.php">COMPONENTS</a></li>
+            <li><a href="../components">COMPONENTS</a></li>
         </ul>
     </nav>
     <div class="header">
-        <img src="./images/bg.png" class="header-image" alt="Banner Image">
+        <img src="../images/bg.png" class="header-image" alt="Banner Image">
         <div class="welcome-section">
             <h1>Build Your PC</h1>
             <h4>Unleash the Potential with Cutting-Edge Custom PC Builder</h4>
