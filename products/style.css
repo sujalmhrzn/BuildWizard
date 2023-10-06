@@ -1,0 +1,45 @@
+
+
+/* Product grid styles */
+.product-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #007bff;
+}
+

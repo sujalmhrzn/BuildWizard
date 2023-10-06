@@ -1,0 +1,33 @@
+.custom-dropdown {
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+/* Style the submit button */
+.custom-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+.estimate{
+    background-color: gold ;
+    color: black;
+}
+
+.estimate:hover {
+    background-color: rgb(210, 185, 47);
+    color: white;
+}

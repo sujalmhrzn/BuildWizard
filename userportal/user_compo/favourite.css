@@ -1,0 +1,28 @@
+ /* Style the product list container */
+ .product-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Style the product card */
+.product-card {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the remove button */
+.remove-button {
+    background-color: #ff3333; /* Red button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #ff0000; /* Darker red on hover */
+}

@@ -1,3 +1,11 @@
+
+<?php session_start();
+if(isset($_SESSION["uid"]))
+{
+    header("Location:../userportal");
+    exit();
+}
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -24,7 +32,9 @@
                     {
                         if($u_password==$user["u_password"])
                         {
-                            header("Location: ../portal.php");
+                            $_SESSION["uid"]=$user["uid"];
+                            header("Location:../userportal");
+                            
                         }
                         else{
                             echo "<p style='color:red;'>PASSWORD INCORRECT</p>";

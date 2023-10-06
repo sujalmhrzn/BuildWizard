@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D8D8D8;
+    margin: 0;
+}
+.main{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+}
+.main form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.forgot{
+    margin: 10px 0;
+    text-align: right;
+}
+.main form p{
+    text-align: center;
+    color: #979797;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+form a{
+    color: #5E8BFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+button{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+form input[type="email"]{
+    outline: none;
+    width: auto;
+    height: 41px;
+    flex-shrink: 0;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #979797;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+form input[type="password"]{
+    outline: none;
+    width: auto;
+    height: 41px;
+    flex-shrink: 0;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #979797;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+button{
+    background-color: #06236D;
+    width: 45%;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(58, 141, 236, 0.25));
+    border: none;
+}
